@@ -28,5 +28,5 @@ create table turma (
 	 id_curso int,
 	 descricao varchar(50),
 	 primary key(id),
-	 foreign key (id_curso) references curso(id)
+	 foreign key id_curso references curso(id)
 );
