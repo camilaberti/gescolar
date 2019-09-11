@@ -32,6 +32,7 @@ if(isset($_REQUEST['cadastrar']))
 }
 ?>
 <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+<?php include_once 'include/cabecalho.php' ?>
 <div>
 <fieldset>
    <legend>Cadastro de Aluno </legend>

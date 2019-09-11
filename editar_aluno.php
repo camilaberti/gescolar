@@ -2,7 +2,7 @@
 /**
  * Arquivo para registrar os dados de um aluno no banco de dados.
  */
-if(isset($_REQUEST['ataulizar']))
+if(isset($_REQUEST['atualizar']))
 {
     try
     {
@@ -33,7 +33,8 @@ if(isset($_REQUEST['ataulizar']))
 }
 
 ?>
-
+<link href="css/estilos.css" type="text/css" rel="stylesheet" />
+<?php include_once 'include/cabecalho.php' ?>
 
 <div>
 <fieldset>
