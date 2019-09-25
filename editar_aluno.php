@@ -1,10 +1,8 @@
 <?php
-/**
- * Arquivo para registrar os dados de um aluno no banco de dados.
- */
-if(isset($_REQUEST['atualizar']))
+try
 {
-    try
+    if(isset($_REQUEST['atualizar']))
+
     {
         include 'includes/conexao.php';
 
